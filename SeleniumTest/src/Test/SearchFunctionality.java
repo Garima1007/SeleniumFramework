@@ -16,7 +16,7 @@ public class SearchFunctionality {
 		driver.get("https://youtube.com/");
 		driver.manage().window().maximize();		
 		driver.findElement(By.xpath("/html[1]/body[1]/ytd-app[1]/div[1]/div[1]/ytd-masthead[1]/div[3]/div[2]/ytd-searchbox[1]/form[1]/div[1]/div[1]/input[1]")).sendKeys("Automation Step by Step");
-		driver.findElement(By.id("search-icon-legacy")).click();
+		//driver.findElement(By.id("search-icon-legacy")).click();
 		
 		try {
 			Thread.sleep(10000);
